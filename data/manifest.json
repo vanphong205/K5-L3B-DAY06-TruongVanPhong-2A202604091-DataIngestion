@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-11-14",
+  "sources": [
+    {
+      "source_id": "vf8-frg-vi-1690188048",
+      "title": "VinFast VF8 EV SUV Hướng dẫn ứng phó khẩn cấp",
+      "source_path_or_url": "docs/VF8_FRG_VI_1690188048.pdf",
+      "license_or_permission": "Tài liệu kỹ thuật cứu hộ công khai của VinFast (First Responder's Guide). Sử dụng cho mục đích giáo dục, nghiên cứu học thuật và kiểm thử benchmark Data Ingestion.",
+      "accessed_at": "2026-11-14",
+      "sha256": "678725bda44e69641397c736203444ed4cfa25cc2b6dd156365ec87bed787a57",
+      "physical_pages": 25,
+      "page_count": 25,
+      "content_pages": 21,
+      "content_page_numbers": [
+        5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
+      ],
+      "non_content_pages": [1, 2, 3, 4],
+      "page_counting_rules": "Trang 1 là trang bìa, Trang 2 là thông báo pháp lý, Trang 3 là giới thiệu & mục lục, Trang 4 là cảnh báo chung. Từ Trang 5 đến 25 là 21 trang nội dung kỹ thuật trực tiếp bao gồm 10 chương mục cứu hộ (Section 0 đến Section 9).",
+      "char_count": 16451,
+      "image_count": 36,
+      "sections": [
+        "0. Bảng tổng quan Cứu hộ",
+        "1. Nhận dạng xe",
+        "2. Ổn định xe và Nâng xe",
+        "3. Loại bỏ Mối nguy hiểm Trực tiếp",
+        "4. Tiếp cận với người ngồi trong xe",
+        "5. Năng lượng Lưu trữ",
+        "6. Trong trường hợp cháy",
+        "7. Trong trường hợp ngập nước",
+        "8. Kéo xe, Vận chuyển, Bảo quản",
+        "9. Thông tin bổ sung quan trọng"
+      ]
+    }
+  ]
+}

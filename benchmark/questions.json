@@ -1,0 +1,228 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question_type": "truc_tiep",
+    "question": "Mã số nhận dạng xe (VIN) của VinFast VF 8 nằm ở những vị trí nào?",
+    "expected_answer": "Mã số VIN nằm ở 3 vị trí: nhìn qua kính chắn gió phía tài xế, nhấc thảm sàn lên, và trên màn hình chính (Settings > About > Vehicle).",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 7,
+    "evidence_quote": "Mã số nhận dạng xe (VIN) nằm ở ba vị trí trên xe. Nhìn qua kính chắn gió ở phía tài xế. Biển số khắc ở bảng điều khiển cho biết mã số VIN. Nhấc tấm thảm lên để thấy biển khắc số cho biết mã số VIN. Ở màn hình hiển thị chính, điều hướng đến Settings (Cài đặt) > About (Giới thiệu) > Vehicle (Xe).",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question_type": "truc_tiep",
+    "question": "Làm thế nào để đưa xe VF 8 về số mo (N) khi cần đẩy xe một quãng ngắn?",
+    "expected_answer": "Nhấn bàn đạp phanh và ấn nút 'N' trên bảng điều khiển lái xe.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 8,
+    "evidence_quote": "Nhấn bàn đạp phanh và ấn nút \"N\" trên bảng điều khiển lái xe để đưa xe về số mo.",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question_type": "dieu_kien_ngoai_le",
+    "question": "Tại sao không được nâng hoặc kích xe tại vị trí pin điện áp cao (HV)?",
+    "expected_answer": "Vì pin HV có thể bị hư hỏng, làm tăng nguy cơ chấn thương nghiêm trọng.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 9,
+    "evidence_quote": "Không nâng xe ở vị trí pin HV. Pin HV có thể bị hư hỏng. Điều này làm tăng nguy cơ chấn thương.",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question_type": "truc_tiep",
+    "question": "Bộ phận ngắt dịch vụ cơ học (MSD) của xe VF 8 nằm ở đâu và có chức năng gì?",
+    "expected_answer": "MSD nằm trong cổng sạc; là bộ phận điện áp thấp giúp làm gián đoạn nguồn 12V đến pin HV để tắt hệ thống HV.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 10,
+    "evidence_quote": "Bộ phận ngắt dịch vụ cơ học (MSD) nằm trong cổng sạc. MSD là một bộ phận điện áp thấp và làm gián đoạn nguồn cung cấp điện 12V đến pin HV. Ngắt kết nối MSD sẽ dẫn đến tắt hệ thống HV.",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question_type": "metadata_filter",
+    "question": "Theo quy trình loại bỏ mối nguy hiểm trực tiếp (Section 3), mất bao lâu để điện áp cao tiêu tán hoàn toàn sau khi cắt vòng cắt điện?",
+    "expected_answer": "Mất khoảng 5 phút để tiêu tán điện áp cao.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 11,
+    "evidence_quote": "Mất khoảng 5 phút để tiêu tán điện áp cao.",
+    "filter": {
+      "section_no": 3
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question_type": "dien_dat_lai",
+    "question": "Khoảng cách an toàn tối thiểu cần để chìa khóa thông minh cách xa xe nhằm tránh vô tình kích hoạt hệ thống điện là bao nhiêu?",
+    "expected_answer": "Ít nhất 19 foot (khoảng 5,8 mét).",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 11,
+    "evidence_quote": "Giữ chìa khóa cách xe ít nhất 19 foot (5,8 mét) sẽ giúp tránh vô tình vận hành hệ thống điện.",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question_type": "dieu_kien_ngoai_le",
+    "question": "Nếu không thể tháo phích sạc bằng điện, nhân viên cứu hộ thao tác cơ học thế nào để rút phích sạc?",
+    "expected_answer": "Nhấn nút Dừng sạc trên màn hình hiển thị chính và kéo cáp nhả cơ học (1) để ngắt kết nối phích sạc.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 12,
+    "evidence_quote": "Kéo cáp nhả cơ học (1) để ngắt kết nối phích sạc.",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question_type": "dieu_kien_ngoai_le",
+    "question": "Lực lượng cứu hộ phải mở cửa xe VF 8 bằng cách nào nếu tay nắm cửa bên ngoài không hoạt động?",
+    "expected_answer": "Vòng tay qua cửa sổ vào bên trong xe và kéo tay nắm cửa trong xe.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 13,
+    "evidence_quote": "Nếu các tay nắm cửa bên ngoài không hoạt động, hãy vòng tay qua cửa sổ vào xe và kéo tay nắm cửa trong xe.",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question_type": "truc_tiep",
+    "question": "Thao tác mở nắp ca-pô xe VinFast VF 8 từ bên trong khoang lái như thế nào?",
+    "expected_answer": "Kéo cần gạt bên dưới vô lăng hai lần để mở nắp ca pô.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 14,
+    "evidence_quote": "Kéo cần gạt bên dưới vô lăng hai lần để mở nắp ca pô.",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question_type": "metadata_filter",
+    "question": "Trong phần tiếp cận người ngồi trong xe (Section 4), làm thế nào để mở cửa hậu khẩn cấp khi xe bị mất nguồn điện 12V?",
+    "expected_answer": "Mở nắp đậy bên trong tại phần dưới cửa hậu và nhấn mấu màu trắng để mở.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 15,
+    "evidence_quote": "Để tiếp cận lẫy mở khẩn cấp, mở nắp đậy bên trong tại phần dưới cửa hậu. Nhấn mấu màu trắng để mở cửa hậu.",
+    "filter": {
+      "section_no": 4
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question_type": "dien_dat_lai",
+    "question": "Dây cáp điện áp cao trên xe VinFast VF 8 được nhận biết bằng dấu hiệu màu sắc đặc trưng nào?",
+    "expected_answer": "Dây cáp điện áp cao (HV) có màu cảnh báo màu cam.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 17,
+    "evidence_quote": "Dây cáp HV có thể được nhận diện dễ dàng bằng màu cảnh báo màu cam.",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question_type": "truc_tiep",
+    "question": "Vai trò của ắc-quy điện áp thấp 12V đối với hệ thống pin cao áp (HV) trên VF 8 là gì?",
+    "expected_answer": "Ắc-quy 12V cấp điện cho các công tắc tơ điện áp cao; ngắt kết nối ắc-quy 12V thì dòng điện HV không thể hoạt động.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 19,
+    "evidence_quote": "Ắc-quy 12V cấp điện cho các công tắc tơ điện áp cao. Điều này cho phép dòng điện HV đi vào và ra khỏi pin HV. Khi ngắt kết nối ắc-quy 12V, dòng điện HV không thể hoạt động.",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question_type": "dien_dat_lai",
+    "question": "Chất chữa cháy ưu tiên nào được khuyến cáo sử dụng để dập lửa khi xe điện VF 8 bốc cháy?",
+    "expected_answer": "Dập lửa bằng một lượng nước lớn từ trụ cứu hỏa hoặc nguồn nước gần đó.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 20,
+    "evidence_quote": "Nếu xe điện đang bốc cháy, có thể dập lửa bằng một lượng nước lớn. Lấy nước từ một vòi nước cứu hỏa hoặc một nguồn nước gần đó khi có thể.",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question_type": "dieu_kien_ngoai_le",
+    "question": "Khi nào nhân viên cứu hộ mới được phép phun nước trực tiếp vào bên trong bộ pin HV?",
+    "expected_answer": "Chỉ phun nước vào trong pin nếu pin đã có chỗ hở sẵn (tuyệt đối không chọc thủng pin).",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 20,
+    "evidence_quote": "Chỉ phun nước vào trong pin nếu đã có chỗ hở sẵn.",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question_type": "truc_tiep",
+    "question": "Hệ thống điện áp cao của xe VF 8 có làm gia tăng nguy cơ điện giật khi xe bị ngập nước hay không?",
+    "expected_answer": "Không làm tăng nguy cơ điện giật dù bị ngập toàn bộ hay một phần (trừ khi xe bị hư hại nặng từ trước).",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 21,
+    "evidence_quote": "Dù VF8 bị ngập trong nước toàn bộ hay một phần, hệ thống HV không làm tăng nguy cơ điện giật.",
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question_type": "metadata_filter",
+    "question": "Trong hướng dẫn kéo xe và bảo quản (Section 8), xe hư hỏng sau va chạm cần được cách ly và đỗ ở đâu để tránh nguy hiểm thoát nhiệt?",
+    "expected_answer": "Đỗ ở ngoài trời, ở khoảng cách an toàn với xe khác, tòa nhà hay vật dễ cháy, không đỗ trong tòa nhà khép kín.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 22,
+    "evidence_quote": "Không đỗ xe hư hỏng trong một tòa nhà khép kín. Cần đỗ xe hư hỏng ở ngoài trời, ở khoảng cách an toàn với xe khác, tòa nhà hay vật dễ cháy.",
+    "filter": {
+      "section_no": 8
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question_type": "truc_tiep",
+    "question": "Phương pháp vận chuyển bắt buộc đối với xe VinFast VF 8 bằng xe cứu hộ chuyên dụng là gì?",
+    "expected_answer": "Phải đặt toàn bộ 4 bánh xe lên sàn xe tải kéo để vận chuyển, cài số mo (N), nhả phanh tay và tắt xe.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 23,
+    "evidence_quote": "Phải đặt toàn bộ VF8 lên sàn xe tải kéo để vận chuyển. Cài xe về số mo (N), nhả phanh tay và tắt xe. Khi được kéo đi, các bánh xe không được phép tiếp xúc với mặt đường.",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question_type": "dien_dat_lai",
+    "question": "Tại sao không được phép để các bánh xe của VF 8 tiếp xúc mặt đường và quay tự do trong quá trình cẩu kéo?",
+    "expected_answer": "Vì xoay bánh xe có thể tạo ra dòng điện trong hệ thống dẫn điện (EDS), làm linh kiện HV quá nhiệt hoặc hư hỏng nặng hơn.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 23,
+    "evidence_quote": "Xoay bánh xe có thể tạo ra điện trong EDS. Điều này có thể khiến linh kiện HV nóng quá mức hoặc gây hư hỏng thêm.",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question_type": "dieu_kien_ngoai_le",
+    "question": "Khi các túi khí trên xe VF 8 bung ra trong một vụ tai nạn, hệ thống điện cao áp của xe sẽ bị ảnh hưởng như thế nào?",
+    "expected_answer": "Xe sẽ tự động ngắt điện áp cao trong toàn bộ linh kiện và dây cáp, ngoại trừ khối pin HV.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 24,
+    "evidence_quote": "Khi túi khí bung ra, xe sẽ tắt điện áp cao trong toàn bộ các linh kiện và cáp ngoại trừ pin HV.",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question_type": "truc_tiep",
+    "question": "Các bộ căng dây đai an toàn trên xe VinFast VF 8 được bố trí ở vị trí nào và có viền nhận diện màu gì?",
+    "expected_answer": "Nằm tại đáy cột B và phía sau các ghế sau, có viền màu đỏ.",
+    "gold_source_id": "vf8-frg-vi-1690188048",
+    "gold_page": 25,
+    "evidence_quote": "Các bộ căng dây đai an toàn nằm tại đáy cột B, phía sau các ghế sau. Các bộ căng dây đai an toàn có viền màu đỏ.",
+    "filter": null
+  }
+]

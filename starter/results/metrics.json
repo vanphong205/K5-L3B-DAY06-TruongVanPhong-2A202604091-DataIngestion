@@ -1,0 +1,68 @@
+{
+  "A_fixed_size:dev": {
+    "strategy": "A_fixed_size",
+    "split": "dev",
+    "total": 15,
+    "hit1_count": 4,
+    "hit1_ratio": "4/15",
+    "hit1_pct": 26.7,
+    "hit3_count": 6,
+    "hit3_ratio": "6/15",
+    "hit3_pct": 40.0
+  },
+  "A_fixed_size:test": {
+    "strategy": "A_fixed_size",
+    "split": "test",
+    "total": 5,
+    "hit1_count": 2,
+    "hit1_ratio": "2/5",
+    "hit1_pct": 40.0,
+    "hit3_count": 2,
+    "hit3_ratio": "2/5",
+    "hit3_pct": 40.0
+  },
+  "B_by_paragraph:dev": {
+    "strategy": "B_by_paragraph",
+    "split": "dev",
+    "total": 15,
+    "hit1_count": 4,
+    "hit1_ratio": "4/15",
+    "hit1_pct": 26.7,
+    "hit3_count": 7,
+    "hit3_ratio": "7/15",
+    "hit3_pct": 46.7
+  },
+  "B_by_paragraph:test": {
+    "strategy": "B_by_paragraph",
+    "split": "test",
+    "total": 5,
+    "hit1_count": 2,
+    "hit1_ratio": "2/5",
+    "hit1_pct": 40.0,
+    "hit3_count": 3,
+    "hit3_ratio": "3/5",
+    "hit3_pct": 60.0
+  },
+  "C_by_paragraph_filter:dev": {
+    "strategy": "C_by_paragraph_filter",
+    "split": "dev",
+    "total": 15,
+    "hit1_count": 4,
+    "hit1_ratio": "4/15",
+    "hit1_pct": 26.7,
+    "hit3_count": 8,
+    "hit3_ratio": "8/15",
+    "hit3_pct": 53.3
+  },
+  "C_by_paragraph_filter:test": {
+    "strategy": "C_by_paragraph_filter",
+    "split": "test",
+    "total": 5,
+    "hit1_count": 2,
+    "hit1_ratio": "2/5",
+    "hit1_pct": 40.0,
+    "hit3_count": 3,
+    "hit3_ratio": "3/5",
+    "hit3_pct": 60.0
+  }
+}

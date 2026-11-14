@@ -45,3 +45,46 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+---
+
+## 4. Hướng dẫn Chạy và Tái lập Thực nghiệm (Reproducibility)
+
+### Bước 1: Khởi động Database & Embedding Provider
+1. Đảm bảo Docker Desktop đang chạy và khởi động PostgreSQL + pgvector:
+   ```bash
+   cd starter
+   docker compose -p day6_student_starter up -d --wait
+   ```
+2. Đảm bảo Ollama đang chạy local và đã tải model embedding:
+   ```bash
+   ollama pull nomic-embed-text
+   ```
+
+### Bước 2: Thiết lập môi trường Python
+```bash
+# Sử dụng virtual environment đã cài đặt dependencies:
+.venv\Scripts\activate
+# Hoặc cài đặt dependencies:
+pip install -r starter/requirements.txt
+```
+
+### Bước 3: Nạp dữ liệu vào Vector Store & Chạy Benchmark
+```bash
+# 1. Nạp và lập chỉ mục 3 chiến lược vào pgvector:
+python starter/scripts/load_to_pgvector.py
+
+# 2. Chạy toàn bộ pipeline đánh giá benchmark 3 chiến lược (A/B/C) trên 20 câu hỏi:
+python -m starter.src.run
+
+# 3. Chạy script phân tích audit thủ công:
+python starter/scripts/audit_analysis.py
+python starter/scripts/audit_coherence.py
+```
+
+Kết quả thực nghiệm, trace chi tiết và báo cáo đánh giá được lưu tại:
+- Báo cáo cá nhân: [report/individual/2A202604091_TruongVanPhong.md](report/individual/2A202604091_TruongVanPhong.md)
+- Nhật ký thí nghiệm: [artifacts/experiment_log.csv](artifacts/experiment_log.csv)
+- Trace 60 lượt truy xuất: [results/traces.json](results/traces.json)
+- Tổng hợp chỉ số: [results/metrics.json](results/metrics.json) và [results/benchmark_summary.md](results/benchmark_summary.md)
+
